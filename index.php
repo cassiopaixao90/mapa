@@ -23,10 +23,10 @@
 			$catMarkers = $map->getMarkersCategory();
 			$allMarkersJson = json_encode($catMarkers);
 		}		
-		require_once("view/vueIndex.php"); 
+		require_once("view/Index.php"); 
        
     } catch (Exception $e) {
         $msgErreur = $e->getMessage();
-        require_once("view/vueErreur.php");
+        require_once("view/Error.php");
     }
 ?>

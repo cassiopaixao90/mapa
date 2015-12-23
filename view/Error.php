@@ -1,8 +1,8 @@
-<?php include_once("template/vueHeader.php"); ?>
+<?php include_once("template/Header.php"); ?>
 
   <body>
 
-    <?php include_once("template/vueNavbar.php"); ?>
+    <?php include_once("template/Navbar.php"); ?>
 
     <div class="container">
 
@@ -13,4 +13,4 @@
 
     </div><!-- /.container -->
 
-	<?php include_once("template/vueFooter.php"); ?>
+	<?php include_once("template/Footer.php"); ?>

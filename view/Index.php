@@ -1,8 +1,8 @@
-<?php include_once("template/vueHeader.php"); ?>
+<?php include_once("template/Header.php"); ?>
 
   <body>
 
-    <?php include_once("template/vueNavbar.php"); ?>
+    <?php include_once("template/Navbar.php"); ?>
     
     <div id="map-canvas"></div>
     
@@ -16,7 +16,7 @@
     	var marcador= <?php echo $allMarkersJson ?> 
     </script>
 
-	<?php include_once("template/vueFooter.php"); ?>
+	<?php include_once("template/Footer.php"); ?>
 
 	</body>
 </html>
