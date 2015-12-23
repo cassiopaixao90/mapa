@@ -9,7 +9,7 @@
 	
     try {
     	$map=new Map();
-		$categories = $map->getAllCategory();
+		//$categories = $map->getAllCategory();
 		
 		if (isset($_POST['marker'])) {
 			$tabCheckbox = $_POST['marker'];
@@ -26,7 +26,7 @@
 		require_once("view/Index.php"); 
        
     } catch (Exception $e) {
-        $msgErreur = $e->getMessage();
+        $msgError = $e->getMessage();
         require_once("view/Error.php");
     }
 ?>
