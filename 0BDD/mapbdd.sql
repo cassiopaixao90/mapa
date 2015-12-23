@@ -40,9 +40,8 @@ CREATE TABLE IF NOT EXISTS `marcar` (
 
 INSERT INTO `marcar` (`Id`, `Latitude`, `Longitude`, `Descricao`) VALUES
 (0, '-7.989702', '-34.838460', 'Conteúdo do InfoBox 2'),
-(1, '-19.212355602107472', '-44.20234468749999', 'Conteúdo do InfoBox 1'),
-(2, '-8.1872626', ' -34.9652414', 'Conteúdo do InfoBox 1'),
-(3, '-8.132364', '-34.903847', 'Conteúdo do InfoBox 2');
+(1, '-19.212355602107472', '-44.20234468749999', 'Conteúdo do InfoBox 1'), 
+(2, '-8.132364', '-34.903847', 'Conteúdo do InfoBox 2');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
