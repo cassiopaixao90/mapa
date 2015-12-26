@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+      <!-- Jquery js -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	
   	<!-- balise méta prise en compte par Google -->
   	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
@@ -12,11 +17,12 @@
 
     <title><?php echo (!empty($title)) ? $title : ''; ?></title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS --> 
     <link href="common/css/bootstrap.min.css" rel="stylesheet">
     <link href="common/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="common/css/style.css" rel="stylesheet">
-
+    
+ 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 

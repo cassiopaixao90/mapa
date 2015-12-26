@@ -1,6 +1,18 @@
 <?php 
 class Map extends BDD{ 
 	
+	
+	function getSearchJobs($searchJobs,$uf){
+		$bdd = parent::getBdd();
+		$sql = "SELECT * FROM MARCAR WHERE PROFISSAO = ".$searchJobs." AND UF=".$uf."";
+		$datas = $bdd->query($sql);	
+
+		while ($resultat = $datas->fetch(PDO::FETCH_OBJ)) {
+			$count[] = $resultat;
+		}
+		return $count;
+	}
+	
     function getAllMarkersActif($markerActif = "Oui", $iconeActif = "Oui" ) {
         $bdd = parent::getBdd();
 		

@@ -11,13 +11,10 @@
     	$map=new Map();
 		//$categories = $map->getAllCategory();
 		
-		if (isset($_POST['marker'])) {
-			$tabCheckbox = $_POST['marker'];
-			$markers = array(); 
-			
-				$catMarkers = $map->getMarkersCategory();
-				$markers = array_merge($markers, $catMarkers); 
-			
+		if (isset($_POST['submit'])) {
+			$jobSearch = $_POST['jobSearch'];
+			$uf = $_POST['uf'];		
+			$markers = $map->getSearchJobs($jobSearch,$uf);			
 			$allMarkersJson = json_encode($markers);
 		} else {
 			$catMarkers = $map->getMarkersCategory();
